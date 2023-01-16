@@ -1,0 +1,166 @@
+
+/* mobile s media */
+
+@media (min-width:370px) {
+      header,footer{
+             background-color: green;
+         } 
+      main{
+         .main-content{
+            background-color: purple;
+          }
+         .main-content2{
+            background-color: aqua;
+          }
+         .div-content1{
+            background-color: yellow;
+          }
+         .div-content2{
+            background-color: yellow;
+          }
+         }
+}
+
+/* mobile450 media */
+
+@media (min-width:420px) {
+    header,footer{
+        background-color: blue;
+       .a-header{
+        font-size: 22px;
+       }
+    }
+    main{
+        .main-content{
+            font-size: 35px;
+            background-color: red;
+        }
+        .main-content>p{
+            margin-top: 50px;
+        }
+        .main-content2{
+            background-color:white;
+        }
+        .div-content1{
+            background-color: black;
+        }
+        .div-content1>p{
+            color: white;
+            font-size: 25px;
+        }
+        .div-content2{
+            background-color: black;
+        }
+        .div-content2>p{
+            color: white;
+            font-size: 25px;
+        }
+    }
+}
+
+/* tablet media */
+
+@media (min-width:750px) {
+    header,footer{
+        background-color: purple;
+        gap: 3rem;
+
+        .a-header{
+            font-size: 25px;
+        }
+    }
+
+    main{
+        flex-direction: row;
+        height: calc(100vh - 9rem);
+
+
+     .left-sidebar{
+        display: flex;
+        background-color: blue;
+        font-size: 30px;
+        padding: 10px;
+        color: #fff;
+        flex: 1;
+     }
+     .left-sidebar>p{
+        margin-top: 30px;
+     }
+     .main-content{
+        background-color: crimson;
+        flex-grow: 3;
+     }
+     .main-content2{
+         background-color: yellow;
+         flex: 1;
+         flex-direction: column;
+     }
+      .div-content1{
+         background-color: aqua;
+      }
+
+     .div-content1>p{
+         font-size: 35px;
+     }
+
+     .div-content2{
+         background-color: aqua;
+      }     
+
+     .div-content2>p{
+          font-size: 35px;
+      }
+    }
+}
+
+/* desctop media */
+
+@media (min-width:1000px) {
+    header,footer{
+        background-color: gold;
+
+        .a-header{
+            color: black;
+            height: 35px;
+            border-bottom: 1px solid black;
+        }
+    }
+
+
+    main{
+
+        .main-content{
+            background-color: blue;
+        }
+
+        .main-content>p{
+            color: black;
+            font-size: 45px;
+        }
+
+        .left-sidebar{
+            background-color:black;
+        }
+
+        .main-content2{
+            background-color: black;
+        }
+
+        .div-content1{
+            background-color: gold;
+        }
+        
+        .div-content1>p{
+            color: black;
+        }
+        
+        .div-content2{
+            background-color: gold;
+        }
+
+        .div-content2>p{
+            color: black;
+        }
+    }
+
+}
